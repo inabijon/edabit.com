@@ -60,3 +60,9 @@ let profitableGamble = (prob, price, pay) => {
     return false
 }
 profitableGamble(0.2, 50, 9)
+
+//30
+let boolToString = (boolean) => {
+    return boolean.toString()
+}
+boolToString(true)
